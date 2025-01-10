@@ -1,144 +1,81 @@
-Retrieval-Augmented Generation (RAG) Chat Application
+<div align='center'>
 
-Overview
+<h1>Retrieval-Augmented-Generation</h1>
+<p>This repository contains the implementation of a Retrieval-Augmented Generation (RAG) chatbot capable of delivering accurate and contextually relevant responses. The project leverages Python and LangChain tools, incorporating FAISS and Hugging Face embeddings to create a robust conversational AI system.</p>
 
-This repository contains the implementation of a Retrieval-Augmented Generation (RAG) chatbot capable of delivering accurate and contextually relevant responses. The project leverages Python and LangChain tools, incorporating FAISS and Hugging Face embeddings to create a robust conversational AI system.
+<h4> <span> · </span> <a href="https://github.com/AbhishMB/Retrieval-Augmented-Generation-RAG--ChatBot/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/AbhishMB/Retrieval-Augmented-Generation-RAG--ChatBot/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/AbhishMB/Retrieval-Augmented-Generation-RAG--ChatBot/issues"> Request Feature </a> </h4>
 
-Features
 
-Document Loading and Splitting: Efficient handling of large documents using the LangChain library.
+</div>
 
-Embeddings and Vector Store: Utilizes Hugging Face embeddings with FAISS for vectorized document storage and retrieval.
+# :notebook_with_decorative_cover: Table of Contents
 
-Retrieval-Augmented Generation Pipeline: Combines retrieved information with generative models for enhanced chatbot responses.
+- [About the Project](#star2-about-the-project)
+- [Acknowledgements](#gem-acknowledgements)
 
-Streamlit Deployment: Optional user-friendly web interface.
 
-Installation and Usage
+## :star2: About the Project
 
-Prerequisites
+### :camera: Screenshots
+<div align="center"> <a href=""><img src="https://drive.google.com/file/d/10DAqv5DYNNJL-JXnnsO2si8dXBtzWdtX/view?usp=drive_link" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://drive.google.com/file/d/1IriRCiESfwQFZAd_PA1L_Rn-PwLvz18I/view?usp=drive_link" alt='image' width='800'/></a> </div>
+<div align="center"> <a href=""><img src="https://drive.google.com/file/d/1-eORYnsDWVp3Uj12E1NTdqohfBz9YCTF/view?usp=drive_link" alt='image' width='800'/></a> </div>
 
-Python 3.8 or higher.
 
-Required libraries:
 
-transformers
+### :dart: Features
+- Document Loading and Splitting: Efficient handling of large documents using the LangChain library.
+- Embeddings and Vector Store: Utilizes Hugging Face embeddings with FAISS for vectorized document storage and retrieval.
+- Retrieval-Augmented Generation Pipeline: Combines retrieved information with generative models for enhanced chatbot responses.
 
-langchain
 
-faiss-cpu
+## :toolbox: Getting Started
 
-sentence-transformers
+### :bangbang: Prerequisites
 
-huggingface-hub
+- Python 3.8 or higher.
+- transformers
+- langchain
+- faiss-cpu
+- sentence-transformers
+- huggingface-hub
+- pandas
+- streamlit (optional for deployment)
 
-pandas
 
-streamlit (optional for deployment)
-
-Steps to Run
+### :gear: Installation
 
 Clone the repository
-
+```bash
 git clone <repository_link>
+```
+
+```bash
 cd <repository_name>
-
+```
 Install dependencies
-
+```bash
 pip install -r requirements.txt
+```
+
+
+### :test_tube: Running Tests
 
 Run the chatbot
-
 For basic usage:
-
+```bash
 python rag_assignment.ipynb
-
+```
 For web deployment with Streamlit:
-
+```bash
 streamlit run app.py
+```
 
-Interact
 
-Use the terminal or Streamlit interface to ask questions and receive responses.
+## :gem: Acknowledgements
 
-Code Documentation
+Use this section to mention useful resources and libraries that you have used in your projects.
 
-Module: rag_chatbot
-
-Dependencies
-
-transformers
-
-langchain
-
-faiss-cpu
-
-sentence-transformers
-
-huggingface-hub
-
-Functions
-
-Hugging Face Login
-
-def login_to_hugging_face(api_token):
-    """Logs into the Hugging Face platform using the provided API token."""
-
-Document Loader and Splitter
-
-def load_and_split_documents(file_path, chunk_size=500, chunk_overlap=100):
-    """Loads a text file and splits its content into chunks."""
-
-Embedding and Vector Store
-
-def create_vector_store(documents, model_name="sentence-transformers/all-MiniLM-L6-v2"):
-    """Creates a FAISS vector store from a list of documents using Hugging Face embeddings."""
-
-Deliverables
-
-Code
-
-File: rag_assignment.ipynb
-
-Includes:
-
-Document Loading
-
-RAG Pipeline Implementation
-
-Hugging Face Authentication
-
-Comprehensive code comments for clarity.
-
-Sample Questions and Responses
-
-File: responses.txt
-
-GitHub Repository
-
-Includes:
-
-Code
-
-responses.txt
-
-README.md (this document)
-
-Optional Deployment
-
-Hosted Streamlit Application (if applicable).
-
-References
-
-LangChain Documentation
-
-FAISS Documentation
-
-Python Documentation
-
-## References
 - [LangChain Documentation](https://langchain.com/)
 - [FAISS Documentation](https://faiss.io/)
 - [Python Documentation](https://docs.python.org/3/)
-
-
