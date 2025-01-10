@@ -4,12 +4,12 @@
 This repository contains the implementation of a Retrieval-Augmented Generation (RAG) chatbot capable of delivering accurate and contextually relevant responses. The project leverages Python and LangChain tools, incorporating FAISS and Hugging Face embeddings to create a robust conversational AI system.
 
 ## Features
-- **Document Loading and Splitting**: Efficient handling of large documents using the LangChain library.
-- **Embeddings and Vector Store**: Utilizes Hugging Face embeddings with FAISS for vectorized document storage and retrieval.
-- **Retrieval-Augmented Generation Pipeline**: Combines retrieved information with generative models for enhanced chatbot responses.
-- **Streamlit Deployment**: Optional user-friendly web interface.
+- Document Loading and Splitting: Efficient handling of large documents using the LangChain library.
+- Embeddings and Vector Store: Utilizes Hugging Face embeddings with FAISS for vectorized document storage and retrieval.
+- Retrieval-Augmented Generation Pipeline: Combines retrieved information with generative models for enhanced chatbot responses.
+- Streamlit Deployment: Optional user-friendly web interface.
 
----
+***
 
 ## Installation and Usage
 
