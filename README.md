@@ -77,7 +77,7 @@ streamlit run streamlit_app.py
 
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
+Useful resources and libraries used in projects.
 
 
 - [LangChain Documentation](https://langchain.com/)
